@@ -1,0 +1,217 @@
+!SESSION 2021-06-12 22:07:16.108 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\WS_Spring\ws_spring_thymeleaf -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-06-12 22:07:27.363
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 22:07:27.363
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5020e5ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19f1f330,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 22:07:38.315
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\juand'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-06-12 22:09:55.791
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-06-13 16:08:09.709 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-06-13 16:24:51.158
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-13 16:24:51.158
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34c6b52e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f7c4e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-13 16:25:05.577
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\juand'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:29.780
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:29.782
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@158be43e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:29.834
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:30.126
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-06-13 16:34:33.467
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.618
+!MESSAGE Boot LS startup time from start to initialized: 5775ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.752
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HteFaYHtisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.755
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.757
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.758
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.759
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.760
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HteFaYHt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.768
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.774
+!MESSAGE buffering callback sts4.classpath.HteFaYHt spring-boot-web-basico false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.775
+!MESSAGE executing callback sts4.classpath.HteFaYHt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:34:35.804
+!MESSAGE executing callback sts4.classpath.HteFaYHt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:36:00.613
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HteFaYHt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:36:00.614
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HteFaYHt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:36:00.615
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:36:00.616
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HteFaYHt => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-06-13 16:48:07.068
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:44.429
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:44.430
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@158be43e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:44.431
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:44.929
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:44.930
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@158be43e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:44.931
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.734
+!MESSAGE Boot LS startup time from start to initialized: 2801ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.819
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WANEyGPRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.820
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.821
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.822
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.824
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WANEyGPR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.828
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.832
+!MESSAGE buffering callback sts4.classpath.WANEyGPR spring-boot-web-basico false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.832
+!MESSAGE executing callback sts4.classpath.WANEyGPR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-13 16:48:47.862
+!MESSAGE executing callback sts4.classpath.WANEyGPR SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-06-13 16:53:51.048
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-06-13 16:53:51.049
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Program Files\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-06-13 16:53:51.051
+!MESSAGE [Info]	Angular language server process ID: 4084
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-06-13 16:53:51.053
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Program Files\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-06-13 16:53:54.133
+!MESSAGE [Error]	No config file for c:\WS_Spring\ws_spring_thymeleaf\spring-boot-web-basico\src\main\resources\templates\index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-06-13 17:16:41.009
+!MESSAGE [Error]	No config file for c:\WS_Spring\ws_spring_thymeleaf\spring-boot-web-basico\src\main\resources\templates\perfil.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-06-13 17:27:59.434
+!MESSAGE [Error]	No config file for c:\WS_Spring\ws_spring_thymeleaf\spring-boot-web-basico\src\main\resources\templates\listar.html

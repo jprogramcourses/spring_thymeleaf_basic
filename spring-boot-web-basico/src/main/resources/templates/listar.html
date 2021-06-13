@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title th:text="${titulo}"></title>
+</head>
+<body>
+
+	<div th:if="${usuarios.isEmpty()}">"No hay usuarios"</div>
+	<div th:if="${!usuarios.isEmpty()}">
+		<table>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellido</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="usuario: ${usuarios}">
+					<td th:text="${usuario.nombre}"></td>
+					<td th:text="${usuario.apellido}"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+</body>
+</html>

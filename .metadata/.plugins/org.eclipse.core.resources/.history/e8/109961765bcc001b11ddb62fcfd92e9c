@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<h1 th:text="${titulo}"></h1>
+
+<span th:text="${usuario.nombre}"></span>
+
+<span th:if="${usuario.email}" th:text="${usuario.email}"></span>
+</body>
+</html>
